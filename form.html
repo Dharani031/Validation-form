@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<!--html is used-->
+<html>
+<head>
+<!--css is linked-->
+<link href="app.css" rel="stylesheet" />
+</head>
+<body>
+<div class="container">
+<div class="header">
+<h2>Validation Form</h2>
+</div>
+<!--form is created with different field-->
+<form class="form">
+<div class="form-control">
+<lable for="fullname"
+name="fullname"><strong>Name:</strong></lable>
+
+<input id="txtfullName" placeholder="Enter your name"
+
+type="text" name="fullname">
+
+<small>Error Message</small>
+</div>
+<div class="form-control">
+<lable for="email"
+
+name="email"><strong>Email:</strong></lable>
+
+<input id="txtEmail" placeholder="Enter email" type="email"
+
+name="email">
+
+<small>Error Message</small>
+</div>
+<div class="form-control">
+<label for="phno" name="phno"><strong>Phone
+
+Number</strong></label>
+
+<input id="txtPhno" placeholder="Enter phone number"
+
+type="text" name="phno">
+
+<small>Error Message</small>
+</div>
+<div class="form-control ">
+
+<label for="dob" name="dob"><strong>Birth
+
+Date</strong></label>
+
+<input type="date" id="dob" placeholder="Select your date"
+
+name="dob" required>
+
+<!--date od birth is made mandatory-->
+<small class="error-message" id="dob-error">Date of Birth is
+
+required.</small>
+</div>
+<div class="form-control">
+<lable for="password"
+
+name="password"><strong>Password:</strong></lable>
+
+<input id="txtpassword" placeholder="Enter password"
+
+type="password">
+
+<!--eye icon is imported-->
+<img
+
+src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/OOjs_UI_icon_ey
+eClosed.svg/1200px-OOjs_UI_icon_eyeClosed.svg.png" class="eyeicon"
+id="eyeicon">
+
+<span>
+</span>
+<small>Error Message</small>
+</div>
+<div class="form-control">
+<lable for="conpassword" name="conpassword"><strong>Confirm
+
+Password</strong></lable>
+
+<input id="txtConpassword" placeholder="Enter Confirm
+
+password" type="password">
+
+<!--eyeicon is imported-->
+<img
+
+src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/OOjs_UI_icon_ey
+eClosed.svg/1200px-OOjs_UI_icon_eyeClosed.svg.png" class="eye" id="eye">
+
+<span>
+</span>
+<small>Error Message</small>
+</div>
+<div class="form-control">
+<!--submit button is created-->
+<button>Register</button>
+</div>
+</form>
+<!--js is linked-->
+<script src="app.js"></script>
+</body>
+</html>
